@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up</title>
+</head>
+<body class="mysign-up">
+<div class="container">
+    <div class="row justify-content-evenly align-items-center form-holder">
+    <form action="index.html" onsubmit="return allValidation()" class="col-lg-8 col-md-12 col-sm-10 pb-2 row rg-form shadow">
+            <legend class="text-center leg w-100  ps-5"> New Account <a href="#" class="registercancel"><span class="my-btn ms-5 ps-5 text-end" type="button" id="rgcancel"> X</span></a></legend>
+            <br>
+        <div class="col-md-6">
+            <label class="myform-label frNmLb mt-3 me-5">First Name</label><span class="showtitle fs-6 ms-5 rounded-pill border badge text-dark ">!</span>
+            <span class="showtitletxt"></span><br>
+            <input type="text" placeholder="frist name" title="enter only your frist name should not contain white spaces" class="myform-input frNmIn" >
+          </div>
+          <div class="col-md-6">
+            <label class="myform-label seNmLb mt-3 me-5">Last Name</label><span class="showtitle fs-6 ms-5 rounded-pill border badge text-dark">!</span>
+            <span class="showtitletxt2"></span><br>
+            <input type="text" placeholder="second name" title="enter only your second name should not contain white spaces" class="myform-input seNmIn" >
+          </div>
+        <div class="col-md-6">
+            <label  class="myform-label emLb me-5">Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><span class="showtitle fs-6 ms-5 rounded-pill border badge text-dark">!</span>
+            <span class="showtitletxt"></span><br>
+            <input type="text" placeholder="E-mail" title="enter your valid e-mail Exaple
+            (mysite@ourearth.com or 
+            my.ownsite@ourearth.info 
+            or mysite@you.me.net)" class="myform-input emIn">
+          </div>
+          <div class="col-md-6">
+            <label class="myform-label pNmbLb me-2">Phone Number</label><span class="showtitle fs-6 ms-5 rounded-pill border badge text-dark">!</span>
+            <span class="showtitletxt2"></span><br>
+            <input type="text" placeholder="your real number" title="enter The numbers should start with a plus sign, followed by the country code and national number  (+country code your number (+xxxxxx : +xxxxxxxxxxxx))" class="myform-input pNmbIn" >
+          </div>
+          <div class="col-md-6">
+            <label class="myform-label pssLb me-5">Password</label><span class="showtitle fs-6 ms-5 rounded-pill border badge text-dark">!</span>
+            <span class="showtitletxt"></span><br>
+            <input type="password" placeholder="password" title="password should be at least 6 digits" class="myform-input pssIn">
+            <span class="showp"></i></span>
+          </div>
+          <div class="col-md-6">
+            <label class="myform-label cPssLb me-1">Confirm Password</label><span class="showtitle fs-6 ms-5 rounded-pill border badge text-dark">!</span>
+            <span class="showtitletxt2"></span><br>
+            <input type="password" placeholder="confirm password" title="enter your password again" class="myform-input cPssIn">
+            <span class="showc"></span>
+          </div>
+          <div class="col-md-6">
+            <label class="myform-label mybirthLb">Birth Day</label><br>
+            <input type="date" class="myform-input mybirth" >
+          </div>
+          <div class="col-md-6">
+            <label class="myform-label mygender">Gender</label>
+            <div class="form-check">
+                <input class="form-check-input mx-1" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male.
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input mx-1" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Female.
+                </label>
+              </div>
+          </div>
+
+          <!-- <div class="col-4 mb-3">
+            <input class="my-btn mx-3" type="button" id="rgcancel"  value="Cancel">
+          </div> -->
+          <div class="col-3">
+            <input class="my-btn mx-3 mb-3" type="button" value="Reset" id="reset">
+          </div>
+          <div class="col-3">
+            <input class="my-btn mx-3" type="submit" value="Submit">
+          </div>
+          
+        
+    </form>
+   </div>
+</div>
+
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/signjava.js"></script>
+</body>
+</html>

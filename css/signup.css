@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+.showtitle{
+    position: relative;
+    display: inline-block;
+}
+.showtitletxt{
+    position: absolute;
+    left:22.5%;
+    background-color: red;
+    width: 13rem;
+    height: fit-content;
+    border-radius: 3%;
+    font-size: 18px;
+    color: white;
+}
+.showtitletxt2{
+    position: absolute;
+    left:50.5%;
+    background-color: red;
+    width: 13rem;
+    height: fit-content;
+    border-radius: 3%;
+    font-size: 18px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+.rg-form{
+    border-radius: 1%;
+    background-color: white;
+    font-size: 25px;
+}
+.mysign-up{
+    background-color: lightgray;
+}
+.form-holder{
+    height: 100vh;
+}
+.myform-input{
+    border-radius:8px;
+    border-color:gray;
+}
+.my-btn{
+    background-color: blue;
+    color: white;
+    border-radius:8px;
+    border-color: blue;
+    padding: 5px;
+}
+.leg{
+    background-color: blue;
+    outline-color: blue;
+    outline: 18px solid blue;
+    /*border-radius: 10px;*/
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.showp{
+    font-size: 15px;  
+} 
+.showc{
+    font-size: 15px;
+}

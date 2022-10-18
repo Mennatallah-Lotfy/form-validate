@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sign In</title>
+</head>
+<body class="myindex">
+   <div class="container">
+    <div class="row justify-content-evenly">
+   <div class="col-5 mt-5">
+      <h1 class="myh1 lh-base fw-bolder pt-3">Facebook</h1>
+      <p class="text-secondary">connect with friends and the world around you on Facebook.</p>
+      <p></p>
+   </div>
+   <div class="col-5 p-5">
+    <form class="myform p-3 shadow" action="sign-in.html" onsubmit="return logIn()">
+    <label class="valid-mail text-danger fw-bolder">Please Enter a Valid E-mail ! </label>
+    <input type="text" placeholder="phone number or E-mail" class="E-mail rounded w-100" title="enter your e-mail or phone number without region code" onblur="emailValidation()"><br><br>
+    <input type="password" title="enter your password" placeholder="password" class="border rounded w-100" id="password"><br>
+    <input type="checkbox" class="show-pass py-3"><span class="my-checkbox "> show password</span><br>
+    <label class="pass-check"></label>
+    <input type="submit" value="log in" class="bg-primary text-white border border-primary p-1 w-100 rounded mt-2"><br><br>
+    <a href="#" class="afterFORGET pb-3 px-4">Forget your password ?</a><br><br>
+    <div class="text-center"><a href="#" class="signup-anchor"><input type="button" value="Create New Account" class="sign-up mb-4 bg-success text-white border border-success p-1 rounded mt-2"></a></div>
+   </form>
+   <p class="end-form text-center">Create <a href="#">a Page </a>for a celebrity, brand or business.</p>
+   </div>
+    </div>
+   </div>
+
+
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/java.js"></script>
+</body>
+</html>

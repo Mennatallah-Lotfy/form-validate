@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 25px;
+}
+
+.myindex{
+    background-color: lightgray;
+}
+.mysign-in{
+    background-color: blue;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+}
+.myh1{
+    color: blue;
+}
+.myform{
+    border-radius: 2%;
+    background-color: white;
+}
+.my-checkbox{
+font-size: 15px;
+font-weight:500;
+}
+.afterFORGET{
+    border-bottom: 1px solid gray;
+}
+.end-form{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+p.text-secondary{
+    font-size: 18px;
+}
+.valid-mail{
+    opacity: 0;
+}
+.pass-check{
+    color:red;
+    font-size: 19px;
+    display: none;
+}
+
+
